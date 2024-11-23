@@ -172,7 +172,8 @@ with open(data_yaml_path, 'w') as outfile:
         'val': os.path.abspath(val_images_dir),
         'test': os.path.abspath(test_images_dir),
         'nc': len(class_names),
-        'names': class_names
+        'names': class_names,
+        'is_coco': False
     }
     import yaml
     yaml.dump(yaml_content, outfile, default_flow_style=False)

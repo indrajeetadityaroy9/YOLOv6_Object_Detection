@@ -2,7 +2,7 @@
 **WIP!🚧**
 
 
-Fine-tuning the YOLOv6-n object detection model using the Stanford Dogs Dataset (http://vision.stanford.edu/aditya86/ImageNetDogs/)
+Fine-tuning the YOLOv6 object detection model using the Stanford Dogs Dataset (http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
 - Number of categories: 120
 - Number of images: 20,580
