@@ -133,6 +133,7 @@ print(f"Training set: {len(train_imgs)}")
 print(f"Validation set: {len(val_imgs)}")
 print(f"Test set: {len(test_imgs)}")
 
+
 def copy_and_rename_files(image_list, label_list, split):
     if split == 'train':
         image_dest = train_images_dir
@@ -146,7 +147,8 @@ def copy_and_rename_files(image_list, label_list, split):
     else:
         raise ValueError("Split must be 'train', 'val', or 'test'.")
 
-    for idx, (img_src, lbl_src) in tqdm(enumerate(zip(image_list, label_list)), total=len(image_list), desc=f'Copying {split} data'):
+    for idx, (img_src, lbl_src) in tqdm(enumerate(zip(image_list, label_list)), total=len(image_list),
+                                        desc=f'Copying {split} data'):
         # New filenames
         new_image_name = f"{split}{idx}.jpg"
         new_label_name = f"{split}{idx}.txt"
@@ -158,6 +160,7 @@ def copy_and_rename_files(image_list, label_list, split):
         # Copy files
         shutil.copyfile(img_src, img_dst)
         shutil.copyfile(lbl_src, lbl_dst)
+
 
 # Copy and rename the files
 copy_and_rename_files(train_imgs, train_labels, 'train')
@@ -175,7 +178,7 @@ with open(data_yaml_path, 'w') as outfile:
         'names': class_names,
         'is_coco': False
     }
-    import yaml
+
     yaml.dump(yaml_content, outfile, default_flow_style=False)
 
 print(f"data.yaml has been created at {data_yaml_path}")
