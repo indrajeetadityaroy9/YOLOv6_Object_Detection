@@ -1,6 +1,6 @@
-test: /Users/indrajeetadityaroy/Desktop/YOLOv6_Object_Detection/custom_dataset/images/test
-train: /Users/indrajeetadityaroy/Desktop/YOLOv6_Object_Detection/custom_dataset/images/train
-val: /Users/indrajeetadityaroy/Desktop/YOLOv6_Object_Detection/custom_dataset/images/val
+test: /YOLOv6_Object_Detection/custom_dataset/images/test
+train: /YOLOv6_Object_Detection/custom_dataset/images/train
+val: /YOLOv6_Object_Detection/custom_dataset/images/val
 
 is_coco: False
 
