@@ -1,0 +1,972 @@
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      0/99     0.0032    0.3955         0     2.863: 100%|██████████| 451/451 [04:18<00:00,  1.75it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      1/99     0.0032    0.3589         0     1.959: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      2/99   0.003199     0.331         0     1.811: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      3/99   0.003197    0.3165         0     1.695: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      4/99   0.003194    0.3099         0     1.632: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      5/99   0.003189    0.3033         0     1.579: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      6/99   0.003183    0.3005         0     1.553: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      7/99   0.003175    0.2984         0     1.523: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      8/99   0.003166    0.2961         0     1.507: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+      9/99   0.003156    0.2919         0     1.485: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     10/99   0.003144    0.2895         0     1.463: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     11/99   0.003131    0.2885         0     1.448: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     12/99   0.003117    0.2874         0     1.434: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     13/99   0.003101    0.2863         0     1.424: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     14/99   0.003084    0.2857         0     1.414: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     15/99   0.003066    0.2836         0     1.397: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     16/99   0.003047    0.2817         0     1.384: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     17/99   0.003026    0.2821         0     1.378: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     18/99   0.003004    0.2787         0     1.367: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     19/99   0.002981    0.2797         0     1.365: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:45<00:00,  1.08it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=3.24s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=38.35s).
+Accumulating evaluation results...
+DONE (t=15.05s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.334
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.479
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.386
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.465
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.336
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.660
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.763
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.764
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.737
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.765
+Results saved to runs/train/yolov6n_finetune
+Epoch: 19 | mAP@0.5: 0.47879769846209974 | mAP@0.50:0.95: 0.3339651333256584
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     20/99   0.002957    0.2792         0     1.359: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     21/99   0.002931    0.2765         0     1.347: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     22/99   0.002905    0.2765         0     1.337: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     23/99   0.002877    0.2759         0     1.332: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     24/99   0.002848    0.2754         0     1.323: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     25/99   0.002818     0.274         0     1.313: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     26/99   0.002788    0.2734         0     1.308: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     27/99   0.002756    0.2712         0     1.304: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     28/99   0.002723    0.2706         0     1.293: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     29/99   0.002689    0.2692         0     1.292: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     30/99   0.002655    0.2709         0     1.295: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     31/99    0.00262    0.2702         0     1.281: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     32/99   0.002583    0.2704         0     1.278: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     33/99   0.002546    0.2696         0     1.274: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     34/99   0.002509    0.2673         0     1.265: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     35/99    0.00247    0.2649         0      1.26: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     36/99   0.002431    0.2666         0      1.26: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     37/99   0.002391    0.2659         0     1.251: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     38/99   0.002351    0.2653         0     1.254: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     39/99    0.00231    0.2631         0     1.247: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:36<00:00,  1.34it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=2.12s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=31.16s).
+Accumulating evaluation results...
+DONE (t=10.53s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.467
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.633
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.543
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.508
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.470
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.710
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.797
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.798
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.754
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.799
+Results saved to runs/train/yolov6n_finetune
+Epoch: 39 | mAP@0.5: 0.6325714657060914 | mAP@0.50:0.95: 0.4671121459557759
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     40/99   0.002269    0.2642         0     1.243: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     41/99   0.002227    0.2628         0     1.234: 100%|██████████| 451/451 [03:55<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     42/99   0.002185    0.2633         0     1.243: 100%|██████████| 451/451 [03:54<00:00,  1.92it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     43/99   0.002142    0.2622         0     1.231: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     44/99   0.002099    0.2601         0      1.22: 100%|██████████| 451/451 [03:56<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     45/99   0.002056    0.2615         0     1.226: 100%|██████████| 451/451 [03:56<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     46/99   0.002012    0.2616         0     1.217: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     47/99   0.001968    0.2597         0     1.216: 100%|██████████| 451/451 [03:56<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     48/99   0.001925    0.2602         0     1.212: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     49/99    0.00188    0.2577         0     1.202: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     50/99   0.001836    0.2578         0     1.207: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:32<00:00,  1.49it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=2.07s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=29.47s).
+Accumulating evaluation results...
+DONE (t=9.89s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.500
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.665
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.582
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.537
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.502
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.726
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.806
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.807
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.753
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.808
+Results saved to runs/train/yolov6n_finetune
+Epoch: 50 | mAP@0.5: 0.6647831825312775 | mAP@0.50:0.95: 0.4996499776763347
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     51/99   0.001792    0.2583         0     1.198: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     52/99   0.001748    0.2573         0     1.196: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     53/99   0.001704    0.2573         0     1.192: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:32<00:00,  1.50it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=2.11s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=29.29s).
+Accumulating evaluation results...
+DONE (t=9.64s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.508
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.673
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.590
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.521
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.511
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.728
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.810
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.810
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.749
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.812
+Results saved to runs/train/yolov6n_finetune
+Epoch: 53 | mAP@0.5: 0.6728417657489343 | mAP@0.50:0.95: 0.5079651287911946
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     54/99   0.001659    0.2583         0     1.196: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     55/99   0.001616    0.2553         0     1.187: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     56/99   0.001572    0.2573         0     1.188: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:31<00:00,  1.54it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=2.05s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=28.68s).
+Accumulating evaluation results...
+DONE (t=9.41s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.511
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.675
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.591
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.532
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.514
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.730
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.810
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.810
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.727
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.812
+Results saved to runs/train/yolov6n_finetune
+Epoch: 56 | mAP@0.5: 0.6754900007769794 | mAP@0.50:0.95: 0.5109453584993123
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     57/99   0.001528    0.2548         0     1.182: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     58/99   0.001485    0.2552         0      1.18: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     59/99   0.001442    0.2535         0     1.172: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:31<00:00,  1.55it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.97s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=27.83s).
+Accumulating evaluation results...
+DONE (t=9.13s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.518
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.683
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.603
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.531
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.521
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.731
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.811
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.812
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.736
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.813
+Results saved to runs/train/yolov6n_finetune
+Epoch: 59 | mAP@0.5: 0.6829172331553717 | mAP@0.50:0.95: 0.5181840470181597
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     60/99   0.001399     0.254         0     1.171: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     61/99   0.001357    0.2524         0     1.166: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     62/99   0.001315    0.2547         0     1.165: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:32<00:00,  1.52it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.68s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=27.71s).
+Accumulating evaluation results...
+DONE (t=9.08s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.523
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.688
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.607
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.542
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.526
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.733
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.813
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.813
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.745
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.815
+Results saved to runs/train/yolov6n_finetune
+Epoch: 62 | mAP@0.5: 0.6881014321342056 | mAP@0.50:0.95: 0.5228497382720568
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     63/99   0.001274    0.2523         0     1.164: 100%|██████████| 451/451 [03:56<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     64/99   0.001233    0.2532         0     1.165: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     65/99   0.001193    0.2505         0     1.154: 100%|██████████| 451/451 [03:56<00:00,  1.90it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:31<00:00,  1.56it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=2.02s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=27.29s).
+Accumulating evaluation results...
+DONE (t=8.80s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.526
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.690
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.612
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.542
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.529
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.735
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.814
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.815
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.744
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.816
+Results saved to runs/train/yolov6n_finetune
+Epoch: 65 | mAP@0.5: 0.689727555929781 | mAP@0.50:0.95: 0.526186676534279
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     66/99   0.001153    0.2525         0     1.155: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     67/99   0.001114    0.2507         0     1.147: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     68/99   0.001075    0.2506         0     1.149: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:30<00:00,  1.63it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.49s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=27.34s).
+Accumulating evaluation results...
+DONE (t=8.61s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.529
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.692
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.616
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.557
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.532
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.738
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.816
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.817
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.756
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.818
+Results saved to runs/train/yolov6n_finetune
+Epoch: 68 | mAP@0.5: 0.6916157104149129 | mAP@0.50:0.95: 0.5293189828431354
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     69/99   0.001038    0.2477         0     1.145: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     70/99   0.001001    0.2495         0     1.141: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     71/99  0.0009644    0.2512         0     1.146: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:30<00:00,  1.63it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.56s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=26.27s).
+Accumulating evaluation results...
+DONE (t=8.53s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.532
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.695
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.617
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.570
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.535
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.739
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.817
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.817
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.754
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.818
+Results saved to runs/train/yolov6n_finetune
+Epoch: 71 | mAP@0.5: 0.6951827876601523 | mAP@0.50:0.95: 0.5324638029348177
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     72/99   0.000929    0.2497         0     1.141: 100%|██████████| 451/451 [03:55<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     73/99  0.0008945    0.2485         0     1.133: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     74/99  0.0008609    0.2498         0     1.136: 100%|██████████| 451/451 [03:58<00:00,  1.89it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:30<00:00,  1.61it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.55s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=27.39s).
+Accumulating evaluation results...
+DONE (t=8.58s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.536
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.698
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.621
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.572
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.538
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.741
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.817
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.817
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.760
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.818
+Results saved to runs/train/yolov6n_finetune
+Epoch: 74 | mAP@0.5: 0.6981943701025582 | mAP@0.50:0.95: 0.5355699533097078
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     75/99  0.0008282    0.2478         0     1.128: 100%|██████████| 451/451 [03:57<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     76/99  0.0007964    0.2485         0      1.13: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     77/99  0.0007656     0.248         0     1.135: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:29<00:00,  1.64it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.52s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=26.03s).
+Accumulating evaluation results...
+DONE (t=8.40s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.538
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.700
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.620
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.575
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.540
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.743
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.818
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.819
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.764
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.820
+Results saved to runs/train/yolov6n_finetune
+Epoch: 77 | mAP@0.5: 0.699543889053438 | mAP@0.50:0.95: 0.5375019358747384
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     78/99  0.0007358    0.2483         0     1.126: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     79/99  0.0007071    0.2469         0     1.127: 100%|██████████| 451/451 [03:56<00:00,  1.90it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     80/99  0.0006795    0.2479         0     1.124: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:30<00:00,  1.61it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.88s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=25.76s).
+Accumulating evaluation results...
+DONE (t=8.22s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.540
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.701
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.623
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.576
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.543
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.744
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.820
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.820
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.768
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.821
+Results saved to runs/train/yolov6n_finetune
+Epoch: 80 | mAP@0.5: 0.7012317325607333 | mAP@0.50:0.95: 0.5399229958610325
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     81/99  0.0006529    0.2449         0     1.124: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     82/99  0.0006275    0.2475         0     1.124: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     83/99  0.0006032    0.2461         0     1.122: 100%|██████████| 451/451 [03:56<00:00,  1.90it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:29<00:00,  1.64it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.87s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=25.53s).
+Accumulating evaluation results...
+DONE (t=8.18s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.542
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.703
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.625
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.561
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.545
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.745
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.820
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.821
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.764
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.822
+Results saved to runs/train/yolov6n_finetune
+Epoch: 83 | mAP@0.5: 0.7029999683519764 | mAP@0.50:0.95: 0.5418619736560011
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     84/99  0.0005801    0.2469         0     1.127: 100%|██████████| 451/451 [03:56<00:00,  1.91it/]
+img record infomation path is:/content/YOLOv6/dataset/custom_dataset/images/.train_cache.json
+Train: Checking formats of labels with 8 process(es): 
+14405 label(s) found, 0 label(s) missing, 0 label(s) empty, 0 invalid label files: 100% 14405/14405 [00:01<00:00, 8153.75it/s]
+Train: Final numbers of valid images: 14405/ labels: 14405. 
+2.6s for dataset initialization.
+img record infomation path is:/content/YOLOv6/dataset/custom_dataset/images/.val_cache.json
+Convert to COCO format
+100% 3087/3087 [00:00<00:00, 82771.20it/s]
+Convert to COCO format finished. Resutls saved in /content/YOLOv6/dataset/custom_dataset/annotations/instances_val.json
+Val: Final numbers of valid images: 3087/ labels: 3087. 
+0.3s for dataset initialization.
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     85/99  0.0005582    0.2233         0    0.9402: 100%|██████████| 451/451 [03:53<00:00,  1.93it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     86/99  0.0005375    0.2204         0    0.9227: 100%|██████████| 451/451 [03:49<00:00,  1.97it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:29<00:00,  1.65it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.33s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.41s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=24.50s).
+Accumulating evaluation results...
+DONE (t=7.76s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.545
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.705
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.627
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.572
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.548
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.747
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.822
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.822
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.763
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.824
+Results saved to runs/train/yolov6n_finetune
+Epoch: 86 | mAP@0.5: 0.7050262027941229 | mAP@0.50:0.95: 0.5446572984326352
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     87/99   0.000518    0.2189         0     0.918: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     88/99  0.0004998    0.2182         0     0.906: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     89/99  0.0004829    0.2144         0    0.8906: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:28<00:00,  1.70it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.32s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.42s).
+Accumulating evaluation results...
+DONE (t=8.66s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.547
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.707
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.631
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.572
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.550
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.749
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.823
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.824
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.763
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.825
+Results saved to runs/train/yolov6n_finetune
+Epoch: 89 | mAP@0.5: 0.7073450338266538 | mAP@0.50:0.95: 0.5472851462590781
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     90/99  0.0004672    0.2134         0    0.8915: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     91/99  0.0004529    0.2122         0    0.8877: 100%|██████████| 451/451 [03:50<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     92/99  0.0004399    0.2113         0    0.8814: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:27<00:00,  1.75it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.36s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.36s).
+Accumulating evaluation results...
+DONE (t=7.40s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.551
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.710
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.637
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.573
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.554
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.749
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.825
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.825
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.752
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.827
+Results saved to runs/train/yolov6n_finetune
+Epoch: 92 | mAP@0.5: 0.7096851378925082 | mAP@0.50:0.95: 0.5511773413518669
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     93/99  0.0004282      0.21         0    0.8733: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     94/99  0.0004179    0.2105         0    0.8702: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     95/99  0.0004089    0.2114         0    0.8674: 100%|██████████| 451/451 [03:50<00:00,  1.96it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:28<00:00,  1.74it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.27s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.98s).
+Accumulating evaluation results...
+DONE (t=7.32s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.554
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.712
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.640
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.576
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.557
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.751
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.825
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.826
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.757
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.827
+Results saved to runs/train/yolov6n_finetune
+Epoch: 95 | mAP@0.5: 0.7118436838621327 | mAP@0.50:0.95: 0.5539509770063801
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     96/99  0.0004013    0.2076         0    0.8659: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     97/99  0.0003951    0.2089         0    0.8627: 100%|██████████| 451/451 [03:50<00:00,  1.96it/]
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     98/99  0.0003902     0.209         0    0.8513: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:27<00:00,  1.77it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=1.25s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.54s).
+Accumulating evaluation results...
+DONE (t=7.36s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.557
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.715
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.644
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.576
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.560
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.753
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.826
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.827
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.755
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.828
+Results saved to runs/train/yolov6n_finetune
+Epoch: 98 | mAP@0.5: 0.7145591570006987 | mAP@0.50:0.95: 0.5569359987873299
+
+     Epoch        lr  iou_loss  dfl_loss  cls_loss
+     99/99  0.0003868    0.2072         0    0.8536: 100%|██████████| 451/451 [03:49<00:00,  1.96it/]
+Inferencing model in train datasets.: 100%|█████████████████████████| 49/49 [00:27<00:00,  1.77it/s]
+
+Evaluating speed.
+
+Evaluating mAP by pycocotools.
+Saving runs/train/yolov6n_finetune/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.92s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=23.55s).
+Accumulating evaluation results...
+DONE (t=7.14s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.558
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.715
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.645
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.576
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.560
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.754
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.826
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.827
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.756
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.829
+Results saved to runs/train/yolov6n_finetune
+Epoch: 99 | mAP@0.5: 0.7153547030040049 | mAP@0.50:0.95: 0.5575074217313466
+
+Training completed in 6.983 hours.

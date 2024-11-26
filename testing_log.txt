@@ -1,0 +1,46 @@
+Fusing model...
+Switch model to deploy modality.
+Model Summary: Params: 4.66M, Gflops: 11.42
+img record infomation path is:/content/YOLOv6/dataset/custom_dataset/images/.val_cache.json
+Val: Checking formats of labels with 8 process(es): 
+3087 label(s) found, 0 label(s) missing, 0 label(s) empty, 0 invalid label files: 100% 3087/3087 [00:00<00:00, 9974.87it/s]
+Convert to COCO format
+100% 3087/3087 [00:00<00:00, 163183.77it/s]
+Convert to COCO format finished. Resutls saved in /content/YOLOv6/dataset/custom_dataset/annotations/instances_val.json
+Val: Final numbers of valid images: 3087/ labels: 3087. 
+0.6s for dataset initialization.
+Inferencing model in val datasets.: 100%|███████████████████████████| 97/97 [00:18<00:00,  5.25it/s]
+
+Evaluating speed.
+Average pre-process time: 0.10 ms
+Average inference time: 0.76 ms
+Average NMS time: 1.22 ms
+
+Evaluating mAP by pycocotools.
+Saving runs/val/exp2/predictions.json...
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.92s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=15.51s).
+Accumulating evaluation results...
+DONE (t=5.03s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.691
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.779
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.739
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.555
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.696
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.847
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.910
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.910
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.783
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.913
+Results saved to runs/val/exp
